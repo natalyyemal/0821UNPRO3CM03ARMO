@@ -1,11 +1,12 @@
 import React from 'react';
+import './category.css'
 
-function Category(){
+function Category(props){
     return(
-        <div className="col-lg-6 mb-4">
+        <div className="col-lg-6 mb-4 category">
             <div className="card bg-info text-white shadow">
                 <div className="card-body">
-                    Category 01
+                    {props.title}
                 </div>
             </div>
         </div>

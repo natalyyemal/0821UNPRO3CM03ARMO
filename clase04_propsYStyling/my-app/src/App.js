@@ -24,15 +24,15 @@ function App() {
 
             {/* <!-- Content Row --> */}
             <div className="row">
-              <Topcard />
-              <Topcard />
-              <Topcard />
+              <Topcard title='Products in database' number='135' icon='fa-clipboard-list' color='border-left-primary'/>
+              <Topcard title='Amount of sales' number='123.143' icon='fa-dollar-sign' color='border-left-warning'/>
+              <Topcard title='Quantity of user' number='9' icon='fa-user-check' color='border-left-success'/>
             </div>
             {/* <!-- Content Row --> */}
             <div className="row">
               {/* <!-- Last Product in DB --> */}
               <div className="col-lg-6 mb-4">
-                <Lastproduct />
+                <Lastproduct title/>
               </div>
               <div className="col-lg-6 mb-4">
                 <Categories />
