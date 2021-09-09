@@ -1,1 +1,0 @@
-La clase de hoy la dedicamos a trabajar sobre el proyecto integrador.  
